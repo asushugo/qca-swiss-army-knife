@@ -8,14 +8,14 @@ Documentation:
 
 https://github.com/mcgrof/qca-swiss-army-knife/wiki
 
-| * pre-cal data + board-2.bin info == actual calibration data
+ - pre-cal data + board-2.bin info == actual calibration data
 
 Python Version: 2.7
 
 For example：
 
  - check board-2.bin
- ```
+```
 $(PATH_TO_QCA_SWISS_ARMY_KNIFE)/tools/scripts/ath10k/ath10k-bdencoder -i board-2.bin
 
 FileSize: 24324
@@ -34,7 +34,7 @@ BoardMD5[1]: 3b286e4e6df83f1cb4a9241badd93961
  - create board-2.bin
  
  First, write a board-2.json file to map the data files to the ID strings, for example
- ```
+```
  [
     {
         "data": "8DEV3000_JALAPENO_2G_boarddata_0_v1.6.bin", 
@@ -49,17 +49,17 @@ BoardMD5[1]: 3b286e4e6df83f1cb4a9241badd93961
         ]
     }
 ]
- ```
+```
  
  Then
- ```
+```
  $(PATH_TO_QCA_SWISS_ARMY_KNIFE)/tools/scripts/ath10k/ath10k-bdencoder -c board-2.json
  
  board binary file 'board-2.bin' is created
  ```
  
 Thanks
-===============================================================
+========================================
 [Lean](https://github.com/coolsnowwolf)
 https://github.com/openwrt/openwrt/pull/713
 https://forum.openwrt.org/t/netgear-orbi-pro-support-booting-from-mmc/14208/91
