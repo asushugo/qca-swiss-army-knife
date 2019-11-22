@@ -60,8 +60,8 @@ BoardMD5[1]: 3b286e4e6df83f1cb4a9241badd93961
  
 Thanks
 ========================================
-[Lean](https://github.com/coolsnowwolf)
-https://github.com/openwrt/openwrt/pull/713
-https://forum.openwrt.org/t/netgear-orbi-pro-support-booting-from-mmc/14208/91
-https://forum.openwrt.org/t/ath10k-and-qca4019-bin-files/11341
-https://git.company235.com/kevin/lede-hf-a21-smt/commit/fa03d441e96eeec0781ccbe757a3641c9dcec785
+ - [Lean](https://github.com/coolsnowwolf)
+ - https://github.com/openwrt/openwrt/pull/713
+ - https://forum.openwrt.org/t/netgear-orbi-pro-support-booting-from-mmc/14208/91
+ - https://forum.openwrt.org/t/ath10k-and-qca4019-bin-files/11341
+ - https://git.company235.com/kevin/lede-hf-a21-smt/commit/fa03d441e96eeec0781ccbe757a3641c9dcec785
